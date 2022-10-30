@@ -162,3 +162,6 @@ MICROSOFT_AUTH_TENANT_ID = config('MICROSOFT_AUTH_TENANT_ID')
 # Microsoft authentication
 # include Microsoft Accounts, Office 365 Enterpirse and Azure AD accounts
 MICROSOFT_AUTH_LOGIN_TYPE = 'ma'
+
+
+django_on_heroku.settings(locals())
