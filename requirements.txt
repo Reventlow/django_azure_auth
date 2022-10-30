@@ -1,0 +1,10 @@
+asgiref==3.5.2
+Django==4.1.2
+django-microsoft-auth==3.0.1
+pip==22.3
+python-decouple==3.6
+setuptools==60.2.0
+sqlparse==0.4.3
+tzdata==2022.5
+wheel==0.37.1
+
