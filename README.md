@@ -11,11 +11,12 @@ I have used the documentation from https://django-microsoft-auth.readthedocs.io/
 
 ### Heroku installation
 Create a new app on heroku and add the following config vars
+```
 SECRET_KEY
 MICROSOFT_AUTH_CLIENT_ID 
 MICROSOFT_AUTH_CLIENT_SECRET  
 MICROSOFT_AUTH_TENANT_ID 
-
+```
 
 ### local installation
 Local installation requires a .env file
