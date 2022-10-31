@@ -163,5 +163,7 @@ MICROSOFT_AUTH_TENANT_ID = config('MICROSOFT_AUTH_TENANT_ID')
 # include Microsoft Accounts, Office 365 Enterpirse and Azure AD accounts
 MICROSOFT_AUTH_LOGIN_TYPE = 'ma'
 
+# django_project/settings.py
+LOGIN_REDIRECT_URL = "/"
 
 django_on_heroku.settings(locals())
