@@ -42,7 +42,7 @@ INSTALLED_APPS = [
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
-    'django.contrib.sites',
+    #'django.contrib.sites',
     # third party apps
     'microsoft_auth',
     # my apps
@@ -140,9 +140,7 @@ AUTHENTICATION_BACKENDS = [
     'django.contrib.auth.backends.ModelBackend'  # if you also want to use Django's authentication
     # I recommend keeping this with at least one database superuser in case of unable to use others
 ]
-
-
-
+'''
 SITE_ID = 1
 
 
@@ -151,7 +149,7 @@ LOGOUT_REDIRECT_URL = 'main:index'
 
 LOGIN_URL = '/'
 LOGOUT_URL = '/'
-
+'''
 # values you got from step 2 from your Microsoft app
 MICROSOFT_AUTH_CLIENT_ID = config('MICROSOFT_AUTH_CLIENT_ID')
 MICROSOFT_AUTH_CLIENT_SECRET = config('MICROSOFT_AUTH_CLIENT_SECRET')
